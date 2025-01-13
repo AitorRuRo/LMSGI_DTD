@@ -1,0 +1,5 @@
+<!DOCTYPE esdeveniments[
+    <!ELEMENT esdeveniments (esdeveniment+)> 
+    <!ELEMENT esdeveniment (grup, lloc, data, entrada)> 
+    <!ATTLIST entrada gratuita (si/no) #REQUIRED>
+]>
