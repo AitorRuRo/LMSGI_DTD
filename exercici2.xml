@@ -2,21 +2,32 @@
 <cataleg>
     <llista_actors>
         <actor id="1">
-            <nom></nom>
-            <edat></edat>
+            <nom>Shameik Moore</nom>
+            <edat>29</edat>
+        </actor>
+        <actor id="2">
+            <nom>Andrew Garfield</nom>
+            <edat>41</edat>
         </actor>
     </llista_actors>
     <llista_pelicules>
         <pelicula id="7">
-            <titol idioma="2"></titol>
-            <director></director>
-            <any></any>
+            <titol idioma="4">Spider-Man: Across the Spider-Verse</titol>
+            <director>Joaquim Dos Santos</director>
+            <any>2023</any>
             <actors>
-                <actor_ref ref="7"></actor_ref>
+                <actor id="1">
+                    <nom>Shameik Moore</nom>
+                    <edat>29</edat>
+                </actor>
+                <actor id="2">
+                    <nom>Andrew Garfield</nom>
+                    <edat>41</edat>
+                </actor>
             </actors>
         </pelicula>
     </llista_pelicules>
     <llista_recomanacions_pelicules>
-        <recomanacio ref="7"></recomanacio>
+        <recomanacio ref="7">Spider-Man: Beyond the Spider-Verse</recomanacio>
     </llista_recomanacions_pelicules>
 </cataleg>
